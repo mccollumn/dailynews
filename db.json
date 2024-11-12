@@ -201,7 +201,16 @@
       "createdAt": "2020-07-22T12:59-0500"
     }
   ],
-  "newsletter": [],
+  "newsletter": [
+    {
+      "email": "user@mail.com",
+      "id": 1
+    },
+    {
+      "email": "user2@mail.com",
+      "id": 2
+    }
+  ],
   "contact": [
     {
       "email": "example@mail.com",
