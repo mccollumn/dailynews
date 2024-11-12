@@ -1,5 +1,11 @@
+import HomePosts from "./homePosts";
+
 const Home = () => {
-  return <>HOME</>;
+  return (
+    <>
+      <HomePosts />
+    </>
+  );
 };
 
 export default Home;
