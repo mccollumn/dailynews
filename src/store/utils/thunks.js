@@ -18,3 +18,11 @@ export const fetchPosts = createAsyncThunk(
     };
   }
 );
+
+export const fetchPostById = createAsyncThunk(
+  "posts/fetchPostById",
+  async (id) => {
+    const response = await axios.get(`${URL_SERVER}/posts/${id}`);
+    return response.data;
+  }
+);
