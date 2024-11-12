@@ -202,5 +202,27 @@
     }
   ],
   "newsletter": [],
-  "contact": []
+  "contact": [
+    {
+      "email": "example@mail.com",
+      "firstname": "my",
+      "lastname": "user",
+      "message": "my message",
+      "id": 1
+    },
+    {
+      "email": "email@mail.com",
+      "firstname": "test",
+      "lastname": "test",
+      "message": "test message",
+      "id": 2
+    },
+    {
+      "email": "email@mail.com",
+      "firstname": "test",
+      "lastname": "test",
+      "message": "test message",
+      "id": 3
+    }
+  ]
 }

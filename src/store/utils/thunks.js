@@ -26,3 +26,11 @@ export const fetchPostById = createAsyncThunk(
     return response.data;
   }
 );
+
+export const sendMessage = createAsyncThunk(
+  "users/sendMessage",
+  async (data) => {
+    await axios.post(`${URL_SERVER}/contact`, data);
+    return true;
+  }
+);
